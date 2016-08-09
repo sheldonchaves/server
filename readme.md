@@ -1,16 +1,17 @@
 #keycloak
 last version
-	sudo wget http://downloads.jboss.org/keycloak/1.9.2.Final/keycloak-1.9.2.Final.tar.gz
+
+	sudo wget https://downloads.jboss.org/keycloak/2.0.0.Final/keycloak-2.0.0.Final.tar.gz
     
 descompact in opt
 
 	sudo tar xvfz keycloak*.gz
-    sudo mv keycloak-1.9.2.Final /opt/
+    sudo mv keycloak-2.0.0.Final /opt/
 
 make symbolic link
 (ln -s /dir/file-name /dir/target/link)
 	
-    ln -s /opt/keycloak-1.9.2.Final /opt/keycloak 
+    ln -s /opt/keycloak-2.0.0.Final /opt/keycloak 
 
 #nginx
 ####1 - basic redirect to 8080

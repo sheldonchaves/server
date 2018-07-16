@@ -18,7 +18,11 @@
     Allocate a new address and associete to instance ec252.27.184.24
     
 ##### Route 53 (DNS)
+
 1 - Register a domain
+
 2 - Enter Route 53
+
 3 - Create Hosted Zone
+
 4 - Create record set type A with WWW and value to IP
